@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 1</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Hind" rel="stylesheet">
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous">
+    </script>
+	
+</head>
+<body>
+	<header>
+		<h1>"Spelled like Carolyn but pronounced like Caroline"</h1>
+	</header>
+	
+	<main>
+
+	<h2>About Me</h2>
+		<p id="first">Family, Boyfriend, CU, and my Bestfriend are what made me who I am today. I have learned without a strong family, you do not have a strong base in life. My boyfriend taught me to love myself. Becoming a Buff has been the biggest accomplishment I have ever done on my own. And my bestfriend taught me water can be thicker than blood. Over the years, a lot of things have helped me become stronger and love life even more, and a few of those things are down below. Enjoy :)</p>
+			<div class="slideshow-container">
+			  <div class="mySlides fade">
+			    <div class="numbertext">1 / 5</div>
+			    <img src="img/family1.jpg" style="width:100%">
+			    
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">2 / 5</div>
+			    <img src="img/family2.jpg" style="width:100%">
+			    
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">3 / 5</div>
+			    <img src="img/bf.jpg" style="width: 50%; position: relative;left: 30%;">
+			   
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">4 / 5</div>
+			    <img src="img/buff.jpg" style="width:50%; position: relative;left: 30%;">
+			   
+			  </div>
+
+			  <div class="mySlides fade">
+			    <div class="numbertext">5 / 5</div>
+			    <img src="img/IMG_0013.jpg" style="width: 30%;position: relative;left: 40%;">
+			    
+			  </div>
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span> 
+			  <span class="dot" onclick="currentSlide(5)"></span>  
+			</div>
+
+		<ul>
+			<div class="label">
+				<li><a href="gandalf.html" >Gandalf The Grey</a></li>
+				<img onclick="gandalfDes()" src="img/downarrow.png"><br> click on arrow 
+				<p id="gandalf">A little bit about Gandalf. He is a Russian Blue Cat. I adopted him when he was 2 months old, at Evergreen Cat Lodge. He was a litter of 5, all named after wizards. His mommy died after giving birth. He is exteremly smart. When I yell at him for doing something he is not suppose to, he stops doing it but does talk back to me. He loves to play fetch and can go for hours going back and forth with a ball. Gandalf is my baby, but also my bestfriend. He knows when I need some loving and knows when I am very stressed. Even though he is only 9 months old now, he is as wise as Gandalf (LOTR).</p>
+			</div>
+
+			<div class="label">
+				<li><a href="starwars.html">Star Wars</a></li>
+				<img onclick="starDes()" src="img/downarrow.png"><br> click on arrow 
+				<p id="star">So, I cannot say I am Star Wars #1 fan, because, I just watched all the movies two years ago, but I can say that I do love Star Wars. I love it to the point I want to name my future child (so in seven years or so haha) Anakin Skywalker. What I really love about Star Wars, is Princess Leia. She is/would of been someone I would of looked up to as a child. She was a princess fighting for whats right rather than looking for love. Oh, and Harrison Ford is in it, who doesn't love Harrison Ford? </p>
+			</div>
+
+			<div class="label">
+				<li><a href="sushi.html">Sushi</a></li>
+				<img onclick="sushiDes()" src="img/downarrow.png"><br> click on arrow 
+				<p id="sushi">Sushi is life. Every time someone asks me what I want to eat, my response is always sushi. It just has such an amazing taste I do not know, how I could live without it. If I could become a food, I would be sushi.</p>
+			</div>
+		</ul>
+	</main>
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
